@@ -6,10 +6,12 @@
 
 
 body {
-    background-color: rgb(196, 194, 194);
+    background-color: hsl(33, 7%, 76%);
+    background-repeat: no-repeat;
 }
 
 header {
+    height: 200px;
     background-color: rgb(230, 137, 93);
     display: flex;
     justify-content:space-between;
@@ -84,9 +86,14 @@ font-size: 12px;
 }
 
 span {
-    margin-top: 10px;
+    font-size: 12px;
+    margin: 17px;    
     color: white;
-    border: solid rgb(0, 0, 0);
-    background-color: black;
+    border: solid rgb(230, 137, 93);
+    background-color:rgb(230, 137, 93)
+}
+
+.infoperso {
+    
 }
 
