@@ -4,51 +4,86 @@
     margin: 0;
 }
 
-
 body {
-    background-color: hsl(33, 7%, 76%);
+    background-color: hsl(188, 49%, 91%);
     background-repeat: no-repeat;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 header {
-    height: 200px;
-    background-color: rgb(230, 137, 93);
+    height: 250px;
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content:space-between;
 }
 
 h1 {
-    color: rgb(255, 255, 255);
-    font-size:40px;
-    text-align: left;
-    justify-content: space-between;
-    margin-top: 25px;
+    color: rgb(7, 40, 105);
+    font-size:33px;
+    letter-spacing: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.phrase {
+    width: 47%;
+    color: rgb(39, 44, 70);
+    text-align: center;
+    text-align: justify;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 70px;
+    margin-bottom: 100 px;
+    font-size: 20px;
+
+}
+
+.infoperso{
+    margin-top: 68px;
+    margin-right: 40px;
+    font-size: 18px;
+    text-align:right;
+    line-height: 30px;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
 
 h2 {
-    color: rgb(105, 96, 96);
+    color: rgb(0, 0, 0);
     text-align: center;
-    margin-bottom: 25px;
+    margin-bottom: 32px;
     text-transform:uppercase;
-    font-size: 25px;
+    font-size: 28px;
+    letter-spacing: 2px;
 }
 
 h3 {
-    color: rgb(105, 96, 96);
-    font-size: 20px;
+    color: rgb(63, 97, 166);
+    font-size: 24px;
     margin: 5px;
     margin-bottom: 5px;
 }
 
 h4 {
-    color: rgb(105, 96, 96);
-    font-size: 15px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
     margin: 5px;
 }
 
 
 section {
-    border-radius: 30px;
+    border-radius: 10px;
     border: solid white;
     width: 800px;
     background-color: white;
@@ -67,13 +102,14 @@ margin: 25px;
     
 p{
 margin: 5px;
-font-size: 12px;
+margin-top: 10px;
+font-size: 17px;
 }
 
 ul{
 margin: 10px;
 margin-left: 15px;
-font-size: 12px;
+font-size: 16px;
 }
 
 .Competences ul {
@@ -86,14 +122,34 @@ font-size: 12px;
 }
 
 span {
-    font-size: 12px;
+    font-size: 20px;
     margin: 17px;    
     color: white;
-    border: solid rgb(230, 137, 93);
-    background-color:rgb(230, 137, 93)
+    border: solid rgb(0, 0, 0);
+    background-color:rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
-.infoperso {
-    
+.image{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
+.centreinteret {
+    margin-top: 40px;
+}
+
+.centre {
+    list-style-type: none;
+    margin-top: 1px;
+    line-height: 50px;
+    font-size: 18px;
+    background-image: url("./sea.jpg");
+    background-position: 200%;
+    background-repeat:no-repeat;
+}
